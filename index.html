@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f2933" />
+
+    <title data-field="seo.title">Le Petit Bistrot — Cuisine de saison à Lyon</title>
+    <meta
+      name="description"
+      data-field="seo.description"
+      data-attr-content="seo.description"
+      content="Bistrot familial au cœur de Lyon. Cuisine de saison, produits locaux, ambiance chaleureuse. Réservez votre table."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" data-attr-content="seo.title" content="Le Petit Bistrot" />
+    <meta
+      property="og:description"
+      data-attr-content="seo.description"
+      content="Cuisine de saison, ambiance chaleureuse au cœur de Lyon."
+    />
+    <meta property="og:image" content="social-card.svg" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='28'%3E🍷%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="#top" aria-label="Retour en haut">
+          <span class="brand__mark" aria-hidden="true">🍷</span>
+          <span class="brand__name" data-field="name">Le Petit Bistrot</span>
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="#about">À propos</a>
+          <a href="#menu">Carte</a>
+          <a href="#hours">Horaires</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn--primary site-header__cta" data-link="contact.reservationUrl" href="#contact">
+          Réserver
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="container hero__inner">
+          <p class="eyebrow" data-field="hero.eyebrow">Bistrot · Lyon 2ème</p>
+          <h1 class="hero__title" data-field="name">Le Petit Bistrot</h1>
+          <p class="hero__tagline" data-field="tagline">
+            Cuisine de saison, ambiance chaleureuse, produits d'ici.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" data-link="contact.reservationUrl" href="#contact">
+              Réserver une table
+            </a>
+            <a class="btn btn--ghost" href="#menu">Voir la carte</a>
+          </div>
+          <dl class="hero__meta" aria-label="Informations clés">
+            <div>
+              <dt>Adresse</dt>
+              <dd data-field="address.short">42 rue de la République, Lyon</dd>
+            </div>
+            <div>
+              <dt>Téléphone</dt>
+              <dd>
+                <a data-link="contact.phoneHref" data-field="contact.phone" href="tel:+33478123456">
+                  +33 4 78 12 34 56
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt>Aujourd'hui</dt>
+              <dd data-today>—</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container section__grid">
+          <header class="section__header">
+            <p class="eyebrow">À propos</p>
+            <h2 data-field="about.title">Un bistrot, une famille, une cuisine vivante</h2>
+          </header>
+          <div class="section__body">
+            <p data-field="about.body">
+              Depuis 2014, nous mitonnons une cuisine française simple et généreuse,
+              au rythme des saisons et des producteurs voisins. Pousser la porte du
+              Petit Bistrot, c'est s'attabler comme à la maison — autour d'un verre
+              de côtes-du-rhône et d'une assiette qui sent bon le marché.
+            </p>
+            <ul class="highlights" data-list="highlights">
+              <template>
+                <li class="highlight">
+                  <h3 data-field="title"></h3>
+                  <p data-field="description"></p>
+                </li>
+              </template>
+              <li class="highlight">
+                <h3>Produits locaux</h3>
+                <p>Légumes du marché de la Croix-Rousse, viandes des Monts du Lyonnais.</p>
+              </li>
+              <li class="highlight">
+                <h3>Carte de saison</h3>
+                <p>Une ardoise renouvelée chaque mois pour suivre les arrivages.</p>
+              </li>
+              <li class="highlight">
+                <h3>Cave de vignerons</h3>
+                <p>Une sélection de petits domaines en agriculture raisonnée.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section section--alt">
+        <div class="container">
+          <header class="section__header section__header--center">
+            <p class="eyebrow">La carte</p>
+            <h2 data-field="menu.title">Notre carte du moment</h2>
+            <p class="section__lede" data-field="menu.intro">
+              Une carte courte, qui change toutes les quatre semaines. Toutes nos
+              viandes sont d'origine française.
+            </p>
+          </header>
+
+          <div class="menu" data-list="menu.sections">
+            <template>
+              <article class="menu__section">
+                <h3 data-field="category"></h3>
+                <ul class="menu__list" data-list="items">
+                  <template>
+                    <li class="menu__item">
+                      <div class="menu__item-head">
+                        <span class="menu__item-name" data-field="name"></span>
+                        <span class="menu__item-price" data-field="price"></span>
+                      </div>
+                      <p class="menu__item-desc" data-field="description"></p>
+                    </li>
+                  </template>
+                </ul>
+              </article>
+            </template>
+
+            <article class="menu__section">
+              <h3>Entrées</h3>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <div class="menu__item-head">
+                    <span class="menu__item-name">Velouté de courge</span>
+                    <span class="menu__item-price">9 €</span>
+                  </div>
+                  <p class="menu__item-desc">Châtaignes torréfiées, huile de noisette.</p>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__item-head">
+                    <span class="menu__item-name">Œuf parfait</span>
+                    <span class="menu__item-price">11 €</span>
+                  </div>
+                  <p class="menu__item-desc">Champignons de Pierre-Bénite, crème de comté.</p>
+                </li>
+              </ul>
+            </article>
+
+            <article class="menu__section">
+              <h3>Plats</h3>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <div class="menu__item-head">
+                    <span class="menu__item-name">Quenelle de brochet</span>
+                    <span class="menu__item-price">22 €</span>
+                  </div>
+                  <p class="menu__item-desc">Sauce Nantua, riz pilaf au safran.</p>
+                </li>
+                <li class="menu__item">
+                  <div class="menu__item-head">
+                    <span class="menu__item-name">Suprême de volaille fermière</span>
+                    <span class="menu__item-price">24 €</span>
+                  </div>
+                  <p class="menu__item-desc">Polenta crémeuse, légumes racines rôtis.</p>
+                </li>
+              </ul>
+            </article>
+
+            <article class="menu__section">
+              <h3>Desserts</h3>
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <div class="menu__item-head">
+                    <span class="menu__item-name">Tarte fine aux pommes</span>
+                    <span class="menu__item-price">8 €</span>
+                  </div>
+                  <p class="menu__item-desc">Glace vanille de Madagascar.</p>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="hours" class="section">
+        <div class="container section__grid">
+          <header class="section__header">
+            <p class="eyebrow">Horaires</p>
+            <h2 data-field="hours.title">Quand nous rendre visite</h2>
+            <p class="section__lede" data-field="hours.intro">
+              Réservation conseillée le week-end. Service continu le samedi midi.
+            </p>
+          </header>
+          <div class="section__body">
+            <table class="hours-table" aria-label="Horaires d'ouverture">
+              <tbody data-list="hours.schedule">
+                <template>
+                  <tr>
+                    <th scope="row" data-field="day"></th>
+                    <td data-field="hours"></td>
+                  </tr>
+                </template>
+                <tr><th scope="row">Lundi</th><td>Fermé</td></tr>
+                <tr><th scope="row">Mardi</th><td>12h00 – 14h30 · 19h00 – 22h30</td></tr>
+                <tr><th scope="row">Mercredi</th><td>12h00 – 14h30 · 19h00 – 22h30</td></tr>
+                <tr><th scope="row">Jeudi</th><td>12h00 – 14h30 · 19h00 – 22h30</td></tr>
+                <tr><th scope="row">Vendredi</th><td>12h00 – 14h30 · 19h00 – 23h00</td></tr>
+                <tr><th scope="row">Samedi</th><td>12h00 – 23h00 (service continu)</td></tr>
+                <tr><th scope="row">Dimanche</th><td>Fermé</td></tr>
+              </tbody>
+            </table>
+            <p class="muted" data-field="hours.note">
+              Jours fériés : nous consulter par téléphone.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section--alt">
+        <div class="container section__grid">
+          <header class="section__header">
+            <p class="eyebrow">Contact</p>
+            <h2 data-field="contact.title">Réserver, nous écrire, venir</h2>
+          </header>
+          <div class="section__body contact">
+            <div class="contact__card">
+              <h3>Réservations</h3>
+              <p>
+                Par téléphone&nbsp;:
+                <a data-link="contact.phoneHref" data-field="contact.phone" href="tel:+33478123456">
+                  +33 4 78 12 34 56
+                </a>
+              </p>
+              <p>
+                Par email&nbsp;:
+                <a data-link="contact.emailHref" data-field="contact.email" href="mailto:contact@lepetitbistrot.fr">
+                  contact@lepetitbistrot.fr
+                </a>
+              </p>
+              <a class="btn btn--primary" data-link="contact.reservationUrl" href="tel:+33478123456">
+                Réserver maintenant
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <h3>Adresse</h3>
+              <address data-field="address.full">
+                42 rue de la République<br />
+                69002 Lyon, France
+              </address>
+              <a class="btn btn--ghost" data-link="address.directionsUrl" target="_blank" rel="noopener" href="https://maps.google.com">
+                Itinéraire
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <h3>Suivez-nous</h3>
+              <ul class="social">
+                <li><a data-link="social.instagram" href="#" rel="noopener" target="_blank">Instagram</a></li>
+                <li><a data-link="social.facebook" href="#" rel="noopener" target="_blank">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>
+          © <span data-year>2026</span>
+          <span data-field="name">Le Petit Bistrot</span>. Tous droits réservés.
+        </p>
+        <p class="muted">
+          Site démo — <a href="README.md">comment personnaliser</a>.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
