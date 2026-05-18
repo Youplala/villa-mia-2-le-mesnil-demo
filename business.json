@@ -1,126 +1,91 @@
 {
-  "name": "Le Petit Bistrot",
-  "tagline": "Cuisine de saison, ambiance chaleureuse, produits d'ici.",
+  "name": "Villa Mia 2",
+  "tagline": "Restaurant convivial au Mesnil-en-Thelle, avec les infos utiles en un seul lien.",
 
   "seo": {
-    "title": "Le Petit Bistrot — Cuisine de saison à Lyon",
-    "description": "Bistrot familial au cœur de Lyon. Cuisine de saison, produits locaux, ambiance chaleureuse. Réservez votre table."
+    "title": "Villa Mia 2 — Restaurant au Mesnil-en-Thelle",
+    "description": "Maquette non officielle pour Villa Mia 2 : adresse, horaires, téléphone, itinéraire et liens utiles regroupés sur une page mobile."
   },
 
   "hero": {
-    "eyebrow": "Bistrot · Lyon 2ème"
+    "eyebrow": "Restaurant · Le Mesnil-en-Thelle"
   },
 
   "address": {
-    "short": "42 rue de la République, Lyon",
-    "full": "42 rue de la République\n69002 Lyon, France",
-    "street": "42 rue de la République",
-    "postalCode": "69002",
-    "city": "Lyon",
+    "short": "87 Rue de la Libération, Le Mesnil-en-Thelle",
+    "full": "87 Rue de la Libération\n60530 Le Mesnil-en-Thelle, France",
+    "street": "87 Rue de la Libération",
+    "postalCode": "60530",
+    "city": "Le Mesnil-en-Thelle",
     "country": "France",
-    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=42+rue+de+la+République+69002+Lyon"
+    "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Villa+Mia+2+87+Rue+de+la+Lib%C3%A9ration+60530+Le+Mesnil-en-Thelle"
   },
 
   "contact": {
-    "title": "Réserver, nous écrire, venir",
-    "phone": "+33 4 78 12 34 56",
-    "phoneHref": "tel:+33478123456",
-    "email": "contact@lepetitbistrot.fr",
-    "emailHref": "mailto:contact@lepetitbistrot.fr",
-    "reservationUrl": "tel:+33478123456"
+    "title": "Appeler, venir, vérifier les horaires",
+    "phone": "+33 3 65 09 10 79",
+    "phoneHref": "tel:+33-3-65-09-10-79",
+    "email": "Page Facebook Villa Mia 2",
+    "emailHref": "https://www.facebook.com/villamiaII/",
+    "reservationUrl": "tel:+33-3-65-09-10-79"
   },
 
   "social": {
-    "instagram": "https://instagram.com/lepetitbistrot",
-    "facebook": "https://facebook.com/lepetitbistrot"
+    "instagram": "",
+    "facebook": "https://www.facebook.com/villamiaII/"
   },
 
   "about": {
-    "title": "Un bistrot, une famille, une cuisine vivante",
-    "body": "Depuis 2014, nous mitonnons une cuisine française simple et généreuse, au rythme des saisons et des producteurs voisins. Pousser la porte du Petit Bistrot, c'est s'attabler comme à la maison — autour d'un verre de côtes-du-rhône et d'une assiette qui sent bon le marché."
+    "title": "Une page simple pour trouver Villa Mia 2 rapidement",
+    "body": "Cette maquette non officielle regroupe les informations publiques utiles pour les clients : adresse, bouton d’appel, itinéraire, horaires et lien Facebook. Elle peut ensuite être ajustée avec la vraie carte, les photos de l’établissement et les informations validées par l’équipe."
   },
 
   "highlights": [
     {
-      "title": "Produits locaux",
-      "description": "Légumes du marché de la Croix-Rousse, viandes des Monts du Lyonnais, fromages affinés à Lyon."
+      "title": "Accès direct",
+      "description": "Un bouton d’appel et un bouton itinéraire pensés pour les clients sur mobile."
     },
     {
-      "title": "Carte de saison",
-      "description": "Une ardoise renouvelée chaque mois pour suivre les arrivages et les envies."
+      "title": "Horaires visibles",
+      "description": "Les horaires publics sont affichés clairement, avec une mention de vérification par téléphone."
     },
     {
-      "title": "Cave de vignerons",
-      "description": "Une sélection de petits domaines en agriculture raisonnée, à découvrir au verre."
+      "title": "Lien Facebook",
+      "description": "La page Facebook existante reste accessible depuis le site pour les actualités et photos."
     }
   ],
 
   "menu": {
-    "title": "Notre carte du moment",
-    "intro": "Une carte courte, qui change toutes les quatre semaines. Toutes nos viandes sont d'origine française.",
+    "title": "Carte à compléter avec l’équipe",
+    "intro": "Exemples de rubriques à remplacer par la vraie carte de Villa Mia 2 : plats, pizzas, formules ou spécialités.",
     "sections": [
       {
-        "category": "Entrées",
+        "category": "À mettre en avant",
         "items": [
           {
-            "name": "Velouté de courge",
-            "description": "Châtaignes torréfiées, huile de noisette du Beaujolais.",
-            "price": "9 €"
+            "name": "Spécialités de la maison",
+            "description": "Espace prévu pour présenter les plats ou pizzas les plus demandés.",
+            "price": ""
           },
           {
-            "name": "Œuf parfait",
-            "description": "Champignons de Pierre-Bénite, crème de comté affiné 18 mois.",
-            "price": "11 €"
-          },
-          {
-            "name": "Salade lyonnaise",
-            "description": "Frisée, lardons fumés, croûtons et œuf poché.",
-            "price": "12 €"
+            "name": "Menu du moment",
+            "description": "Une zone simple pour afficher une formule ou une sélection actuelle.",
+            "price": ""
           }
         ]
       },
       {
-        "category": "Plats",
+        "category": "Infos pratiques",
         "items": [
           {
-            "name": "Quenelle de brochet",
-            "description": "Sauce Nantua maison, riz pilaf au safran.",
-            "price": "22 €"
+            "name": "Sur place / à emporter",
+            "description": "À confirmer avec l’établissement avant publication officielle.",
+            "price": ""
           },
           {
-            "name": "Suprême de volaille fermière",
-            "description": "Polenta crémeuse, légumes racines rôtis au thym.",
-            "price": "24 €"
-          },
-          {
-            "name": "Filet de bœuf charolais",
-            "description": "Pommes grenaille, jus corsé au poivre de Sichuan.",
-            "price": "29 €"
-          },
-          {
-            "name": "Risotto de butternut",
-            "description": "Parmesan, noisettes torréfiées, huile de sauge (végétarien).",
-            "price": "19 €"
-          }
-        ]
-      },
-      {
-        "category": "Desserts",
-        "items": [
-          {
-            "name": "Tarte fine aux pommes",
-            "description": "Pommes de la vallée du Rhône, glace vanille de Madagascar.",
-            "price": "8 €"
-          },
-          {
-            "name": "Mousse au chocolat noir",
-            "description": "Chocolat Valrhona 70 %, fleur de sel de Guérande.",
-            "price": "8 €"
-          },
-          {
-            "name": "Fromages affinés",
-            "description": "Sélection du moment, pain aux noix.",
-            "price": "10 €"
+            "name": "Réservation ou commande",
+            "description": "Contact direct par téléphone au +33 3 65 09 10 79.",
+            "price": ""
           }
         ]
       }
@@ -128,17 +93,17 @@
   },
 
   "hours": {
-    "title": "Quand nous rendre visite",
-    "intro": "Réservation conseillée le week-end. Service continu le samedi midi.",
-    "note": "Jours fériés : nous consulter par téléphone.",
+    "title": "Horaires publics à confirmer",
+    "intro": "Horaires relevés depuis les données publiques OpenStreetMap ; à valider avec l’établissement.",
+    "note": "Avant de vous déplacer, appelez le restaurant pour confirmer les horaires et disponibilités.",
     "schedule": [
-      { "day": "Lundi",    "hours": "Fermé" },
-      { "day": "Mardi",    "hours": "12h00 – 14h30 · 19h00 – 22h30" },
-      { "day": "Mercredi", "hours": "12h00 – 14h30 · 19h00 – 22h30" },
-      { "day": "Jeudi",    "hours": "12h00 – 14h30 · 19h00 – 22h30" },
-      { "day": "Vendredi", "hours": "12h00 – 14h30 · 19h00 – 23h00" },
-      { "day": "Samedi",   "hours": "12h00 – 23h00 (service continu)" },
-      { "day": "Dimanche", "hours": "Fermé" }
+      { "day": "Lundi", "hours": "Fermé" },
+      { "day": "Mardi", "hours": "Fermé" },
+      { "day": "Mercredi", "hours": "11h30 – 15h00 · 18h30 – 22h30" },
+      { "day": "Jeudi", "hours": "11h30 – 15h00 · 18h30 – 22h30" },
+      { "day": "Vendredi", "hours": "11h30 – 15h00 · 18h30 – 22h30" },
+      { "day": "Samedi", "hours": "11h30 – 15h00 · 18h30 – 22h30" },
+      { "day": "Dimanche", "hours": "11h30 – 15h00 · 18h30 – 22h30" }
     ]
   }
 }
